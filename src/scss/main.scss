@@ -47,6 +47,12 @@ b, strong {
 	font-weight: bold;
 }
 
+#root {
+	width: 100%;
+}
 
+body {
+	color: red;
+}
 
 @import "media"; // Always at the end

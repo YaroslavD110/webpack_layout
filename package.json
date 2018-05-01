@@ -1,10 +1,10 @@
 {
-  "name": "tangerine",
+  "name": "Webpack layout",
   "version": "1.0.0",
-  "description": "My portfolio web-site",
+  "description": "My webpack layout",
   "main": "index.js",
   "scripts": {
-    "start:dev": "webpack-dev-server --mode=development --open --color",
+    "dev": "webpack-dev-server --mode=development --open --color",
     "build": "webpack --mode=production"
   },
   "keywords": [],
@@ -20,6 +20,7 @@
     "node-sass": "^4.9.0",
     "postcss-loader": "^2.1.4",
     "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
     "webpack": "^4.6.0",
     "webpack-cli": "^2.1.2",
     "webpack-dev-server": "^3.1.3"
